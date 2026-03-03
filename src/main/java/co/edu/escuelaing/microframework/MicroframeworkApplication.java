@@ -10,7 +10,7 @@ public class MicroframeworkApplication {
 
     public static void main(String[] args) {
 
-        MicroFramework.staticFiles("public");
+        MicroFramework.staticfiles("webroot/public");
 
         MicroFramework.get("/hello", (req, res) -> "hello world!");
 

@@ -16,7 +16,7 @@ public class MicroFramework {
         return getRoutes.get(path);
     }
 
-    public static void staticFiles(String folder) {
+    public static void staticfiles(String folder) {
         staticFolder = folder;
     }
 
