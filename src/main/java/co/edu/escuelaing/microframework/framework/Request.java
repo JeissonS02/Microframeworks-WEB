@@ -22,7 +22,7 @@ public class Request {
         return path;
     }
 
-    public String queryParam(String key) {
+    public String getValues(String key) {
         return queryParams.get(key);
     }
 }

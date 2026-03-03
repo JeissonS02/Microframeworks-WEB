@@ -15,7 +15,7 @@ public class MicroframeworkApplication {
         MicroFramework.get("/hello", (req, res) -> "hello world!");
 
         MicroFramework.get("/greet", (req, res) -> {
-            String name = req.queryParam("name");
+            String name = req.getValues("name");
             return "Hello " + name;
         });
 
